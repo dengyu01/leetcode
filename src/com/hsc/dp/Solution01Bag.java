@@ -89,11 +89,12 @@ public class Solution01Bag {
         int maxValue = solution.getMaxValue3(items, 11);
         System.out.println(maxValue);
 
-        Item item6 = solution.new Item(2, 1);
-        Item item7 = solution.new Item(3, 3);
-        Item item8 = solution.new Item(4, 5);
-        Item item9 = solution.new Item(7, 9);
-        Item[] problems = new Item[] {item6, item7, item8, item9};
-        System.out.println("最大价值总和是：" + solution.getMaxValue3(problems, 10));
+        Item item6 = solution.new Item(2, 6);
+        Item item7 = solution.new Item(2, 3);
+        Item item8 = solution.new Item(6, 5);
+        Item item9 = solution.new Item(5, 4);
+        Item item10 = solution.new Item(4, 6);
+        Item[] problems = new Item[] {item6, item7, item8, item9, item10};
+        System.out.println("最大价值总和是：" + solution.getMaxValue2(problems, 10));
     }
 }
